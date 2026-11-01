@@ -4,9 +4,14 @@ frontend
 
 - React + Vite + TypeScript tanulo web (23 temakor, tetelek, kvizek)
 - Adatvezrelt topics/*.ts, kozos QuizBlock / ErettsegiSection komponensek
+- TopicPage: QuizBlock key = slug + block.id (temavaltaskor uj sorrend-kvíz state, nem ures sorok)
 - Vegyes kepek: public/images/maps SVG + Wikimedia URL-ek
 - npm run dev / npm run build mukodik
+- javitas: Wikimedia /thumb/640px linkek helyett kozvetlen commons URL (figureSrc + Figure)
+- javitas: Szent Istvan kep — Istvan-ChroniconPictum.jpg (a regi thumb 404)
 
 osszefoglalo
 
-- [KESZ] Tortenelem tanulo web alap (temakorok, kvizek, 2 tetel)
+- keszen: Tortenelem tanulo web alap (temakorok, kvizek, 2 tetel)
+- keszen: Sorrendes zaro kviz szovegei temavaltas utan is megjelennek
+- keszen: temakor kepek ujra betoltodnek (Wikimedia + helyi terkepek)

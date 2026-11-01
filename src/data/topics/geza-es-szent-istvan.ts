@@ -9,7 +9,7 @@ export const gezaEsSzentIstvan: Topic = {
     sec("Géza nagyfejedelem", [
       "Géza megtérése, misszió — keresztény egyház meghívása; István folytatja.",
       "Katonai hatalom centralizálása a törzsfők ellen; nyugati kapcsolatok.",
-    ], [{ src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Szt_Istvan_Thaler_99775939.jpg/330px-Szt_Istvan_Thaler_99775939.jpg", alt: "Szent István", caption: "Szent István — az államalapító király", credit: "Wikimedia Commons", external: true }]),
+    ], [{ src: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Istvan-ChroniconPictum.jpg", alt: "Szent István", caption: "Szent István — Képes krónika miniatúra", credit: "Wikimedia Commons", external: true }]),
     quiz("m1", "Kvíz", [
       abcd("Ki alapította meg a magyar királyságot?", ["Árpád", "Géza", "Szent István", "Koppány"], 2, "István 1000 körül koronázták királlyá."),
       abcd("Kivel harcolt István a hatalomért?", ["Koppány", "Periklész", "Mohamed", "IV. Béla"], 0, "Koppány lázadása — pogány vs keresztény állam."),

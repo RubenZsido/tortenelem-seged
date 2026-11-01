@@ -1,13 +1,14 @@
 import type { FigureData } from "../lib/types";
+import { resolveFigureSrc } from "../lib/figureSrc";
 
 type Props = { figure: FigureData };
 
-/** Kép megjelenítés: /images/... vagy Wikimedia URL */
+/** Kep megjelenites: /images/... vagy Wikimedia URL */
 export function Figure({ figure }: Props) {
-  const src = figure.external ? figure.src : figure.src;
+  const src = resolveFigureSrc(figure.src);
   return (
     <figure className="fig">
-      <img src={src} alt={figure.alt} loading="lazy" />
+      <img src={src} alt={figure.alt} loading="lazy" referrerPolicy="no-referrer" />
       <figcaption>
         {figure.caption ?? figure.alt}
         {figure.credit ? ` — ${figure.credit}` : null}

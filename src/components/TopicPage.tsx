@@ -34,11 +34,15 @@ export function TopicPage() {
             ))}
           </section>
         ) : (
-          <QuizBlock key={block.id} title={block.title} questions={block.questions} />
+          <QuizBlock
+            key={`${topic.slug}-${block.id}`}
+            title={block.title}
+            questions={block.questions}
+          />
         ),
       )}
 
-      <ErettsegiSection tasks={topic.erettsegi} />
+      <ErettsegiSection key={`${topic.slug}-erettsegi`} tasks={topic.erettsegi} />
     </article>
   );
 }
