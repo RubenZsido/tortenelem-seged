@@ -22,6 +22,26 @@ import { reneszansz } from "./reneszansz";
 import { romanGotika } from "./roman-gotika";
 import { tatarjaras } from "./tatarjaras";
 import { zsidóMonoteizmus } from "./zsidó-monoteizmus";
+import { end234Blocks } from "./end234";
+import { endExtraBlock } from "./endExtra";
+
+/** end2–end4 és end-extra már a fájlban van */
+const END_INLINE = new Set(["geza-es-szent-istvan", "honfoglalas"]);
+
+function topicWithEndExtras(t: Topic): Topic {
+  if (END_INLINE.has(t.slug)) return t;
+  const extraAbc = endExtraBlock(t.slug);
+  const extra234 = end234Blocks(t.slug);
+  if (!extraAbc && extra234.length === 0) return t;
+  return {
+    ...t,
+    blocks: [
+      ...t.blocks,
+      ...(extraAbc ? [extraAbc] : []),
+      ...extra234,
+    ],
+  };
+}
 
 /** Összes témakör — slug alapján keresés */
 const topics: Topic[] = [
@@ -51,7 +71,9 @@ const topics: Topic[] = [
 ];
 
 export function getTopicBySlug(slug: string): Topic | undefined {
-  return topics.find((t) => t.slug === slug);
+  const t = topics.find((x) => x.slug === slug);
+  return t ? topicWithEndExtras(t) : undefined;
 }
 
+/** Nyers adat (kvíz bővítés nélkül) — pl. admin */
 export { topics };

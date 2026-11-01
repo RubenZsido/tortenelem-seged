@@ -23,7 +23,37 @@ export type OrderQuestion = {
   explain: string;
 };
 
-export type Question = AbcdQuestion | OrderQuestion;
+export type TrueFalseQuestion = {
+  type: "truefalse";
+  prompt: string;
+  correct: boolean;
+  explain: string;
+};
+
+export type MatchQuestion = {
+  type: "match";
+  prompt: string;
+  left: { id: string; label: string }[];
+  right: { id: string; label: string }[];
+  /** bal id -> helyes jobb id */
+  pairs: Record<string, string>;
+  explain: string;
+};
+
+export type MultiQuestion = {
+  type: "multi";
+  prompt: string;
+  choices: string[];
+  correct: number[];
+  explain: string;
+};
+
+export type Question =
+  | AbcdQuestion
+  | OrderQuestion
+  | TrueFalseQuestion
+  | MatchQuestion
+  | MultiQuestion;
 
 export type ContentBlock =
   | {
@@ -60,6 +90,6 @@ export type Tetel = {
   title: string;
   minutes: number;
   outline: { heading: string; points: string[] }[];
-  quiz: Question[];
+  quizzes: { title: string; questions: Question[] }[];
   relatedTopics: string[];
 };

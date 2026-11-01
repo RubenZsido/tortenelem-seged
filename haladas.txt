@@ -13,6 +13,11 @@ frontend
 - keszen: sorrendes kviz @dnd-kit — huzas fogantyuval, fel/le gombok nelkul; bekuldes utan statikus lista
 - keszen: scripts/ensure-utf8.mjs — UTF-16/UTF-8 BOM -> UTF-8; npm run ensure:utf8, prebuild
 - javitas: .gitignore UTF-8 kodolas (Git ignore ujra mukodik)
+- keszen: src/data/topics/end234.ts — 21 temakor end2/end3/end4 gyakorlo kviz (demokracia + aranybulla valtozatlan)
+- keszen: uj kviztipusok — truefalse, match (parositas), multi (tobb helyes); QuizBlock + quizCheck + CSS
+- keszen: endExtra.ts + index topicWithEndExtras — zaro kviz kiegeszito (3 ABCD) + end234 minden temakor oldal vegen (geza/honfoglalas inline)
+- keszen: atheni-allamszervezet zaro kviz +3 ABCD; geza + honfoglalas teljes end2-end4 a fajlban
+- keszen: Tetel.quizzes[] — 4 kviz blokk / tetel (atheni-demokracia, iszlam); TetelPage tobb QuizBlock
 
 osszefoglalo
 
@@ -23,3 +28,6 @@ osszefoglalo
 - keszen: automatikus UTF-8 ellenorzes build elott (Windows Unicode mentes javitas)
 - hosting: Render — dist/index.html volt gitben, dist/assets hianyzott (404, ures oldal)
 - hosting: render.yaml + public/_redirects (build + SPA rewrite); dist kivetele git indexbol
+- keszen: Zaro kviz utan temakor-specifikus end2-end4 gyakorlo blokkok mind a 21 slugon
+- keszen: Igaz-hamis, parositas es tobb helyes valasz kvizek a zaro gyakorlasban
+- keszen: Temakorok es tetelek oldal vegen sok uj zaro kviz blokk (maximum mennyiseg)

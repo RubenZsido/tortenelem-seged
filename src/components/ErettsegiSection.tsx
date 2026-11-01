@@ -32,7 +32,10 @@ export function ErettsegiSection({ tasks }: Props) {
   });
 
   const score = useMemo(
-    () => (submitted ? scoreQuestions(closed, abcd, orders) : null),
+    () =>
+      submitted
+        ? scoreQuestions(closed, { abcd, order: orders, truefalse: {}, match: {}, multi: {} })
+        : null,
     [submitted, closed, abcd, orders],
   );
 

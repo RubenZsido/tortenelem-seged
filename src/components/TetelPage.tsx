@@ -46,7 +46,9 @@ export function TetelPage() {
         </ul>
       </section>
 
-      <QuizBlock title="Tétel — önellenőrző kvíz" questions={tetel.quiz} />
+      {tetel.quizzes.map((q, i) => (
+        <QuizBlock key={`${tetel.slug}-quiz-${i}`} title={q.title} questions={q.questions} />
+      ))}
     </article>
   );
 }
