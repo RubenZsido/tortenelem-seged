@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "ensure:utf8": "node scripts/ensure-utf8.mjs",
+    "prebuild": "npm run ensure:utf8",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
   },

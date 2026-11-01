@@ -11,6 +11,8 @@ frontend
 - javitas: Szent Istvan kep — Istvan-ChroniconPictum.jpg (a regi thumb 404)
 - javitas: Periklesz kep — Special:FilePath (hibas 1/1c hash); Agora — The_Agora_of_Athens.jpg
 - keszen: sorrendes kviz @dnd-kit — huzas fogantyuval, fel/le gombok nelkul; bekuldes utan statikus lista
+- keszen: scripts/ensure-utf8.mjs — UTF-16/UTF-8 BOM -> UTF-8; npm run ensure:utf8, prebuild
+- javitas: .gitignore UTF-8 kodolas (Git ignore ujra mukodik)
 
 osszefoglalo
 
@@ -18,3 +20,4 @@ osszefoglalo
 - keszen: Sorrendes zaro kviz szovegei temavaltas utan is megjelennek
 - keszen: temakor kepek ujra betoltodnek (Wikimedia + helyi terkepek)
 - keszen: sorrendes kerdesek atrendezese huzassal (mobil + billentyuzet)
+- keszen: automatikus UTF-8 ellenorzes build elott (Windows Unicode mentes javitas)
