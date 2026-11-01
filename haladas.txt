@@ -1,0 +1,12 @@
+2026-11-01
+
+frontend
+
+- React + Vite + TypeScript tanulo web (23 temakor, tetelek, kvizek)
+- Adatvezrelt topics/*.ts, kozos QuizBlock / ErettsegiSection komponensek
+- Vegyes kepek: public/images/maps SVG + Wikimedia URL-ek
+- npm run dev / npm run build mukodik
+
+osszefoglalo
+
+- [KESZ] Tortenelem tanulo web alap (temakorok, kvizek, 2 tetel)

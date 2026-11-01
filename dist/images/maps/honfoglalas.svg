@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Honfoglalás vázlat">
+  <rect width="400" height="280" fill="#e8eef4"/>
+  <text x="200" y="24" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="14" fill="#2c5282">Magyar honfoglalás (vázlat)</text>
+  <ellipse cx="320" cy="100" rx="70" ry="40" fill="#c9d6e3" stroke="#2c5282"/>
+  <text x="320" y="105" text-anchor="middle" font-size="11">Steppe</text>
+  <path d="M250 110 Q200 130 180 160" fill="none" stroke="#c53030" stroke-width="2" marker-end="url(#arr)"/>
+  <defs><marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#c53030"/></marker></defs>
+  <path d="M80 180 L350 180 L350 250 L80 250 Z" fill="#d4edda" stroke="#276749"/>
+  <text x="200" y="210" text-anchor="middle" font-size="12">Kárpát-medence</text>
+  <text x="200" y="230" text-anchor="middle" font-size="10" fill="#5c5c5c">~895</text>
+</svg>

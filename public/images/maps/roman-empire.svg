@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Római birodalom vázlat">
+  <rect width="400" height="280" fill="#f5f0e6"/>
+  <text x="200" y="24" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="14" fill="#744210">Római Birodalom (vázlat)</text>
+  <circle cx="200" cy="140" r="90" fill="#ebdcc4" stroke="#744210" stroke-width="2"/>
+  <circle cx="200" cy="140" r="8" fill="#c53030"/>
+  <text x="200" y="144" text-anchor="middle" font-size="9" fill="#fff">Róma</text>
+  <text x="200" y="250" text-anchor="middle" font-size="10" fill="#5c5c5c">Mediterrán és Európa  tanuló térkép</text>
+</svg>
