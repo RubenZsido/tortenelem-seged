@@ -16,7 +16,7 @@ export const atheniAllamszervezet: Topic = {
       ],
       figures: [
         {
-          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Agora_of_Athens_view.jpg/640px-Agora_of_Athens_view.jpg",
+          src: "https://upload.wikimedia.org/wikipedia/commons/7/76/The_Agora_of_Athens.jpg",
           alt: "Az athéni agora romjai",
           caption: "Az athéni agora — a polis közéleti központja",
           credit: "Wikimedia Commons",

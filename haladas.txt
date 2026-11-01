@@ -9,6 +9,7 @@ frontend
 - npm run dev / npm run build mukodik
 - javitas: Wikimedia /thumb/640px linkek helyett kozvetlen commons URL (figureSrc + Figure)
 - javitas: Szent Istvan kep — Istvan-ChroniconPictum.jpg (a regi thumb 404)
+- javitas: Periklesz kep — Special:FilePath (hibas 1/1c hash); Agora — The_Agora_of_Athens.jpg
 
 osszefoglalo
 
