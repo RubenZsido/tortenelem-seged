@@ -21,3 +21,5 @@ osszefoglalo
 - keszen: temakor kepek ujra betoltodnek (Wikimedia + helyi terkepek)
 - keszen: sorrendes kerdesek atrendezese huzassal (mobil + billentyuzet)
 - keszen: automatikus UTF-8 ellenorzes build elott (Windows Unicode mentes javitas)
+- hosting: Render — dist/index.html volt gitben, dist/assets hianyzott (404, ures oldal)
+- hosting: render.yaml + public/_redirects (build + SPA rewrite); dist kivetele git indexbol

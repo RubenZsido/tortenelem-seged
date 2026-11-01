@@ -1,0 +1,12 @@
+# Render Static Site — tortenelem-seged.onrender.com
+# Dashboard: uj deploy utan a buildCommand feltolti a dist/assets fajlokat.
+services:
+  - type: web
+    name: tortenelem-seged
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
