@@ -10,9 +10,11 @@ frontend
 - javitas: Wikimedia /thumb/640px linkek helyett kozvetlen commons URL (figureSrc + Figure)
 - javitas: Szent Istvan kep — Istvan-ChroniconPictum.jpg (a regi thumb 404)
 - javitas: Periklesz kep — Special:FilePath (hibas 1/1c hash); Agora — The_Agora_of_Athens.jpg
+- keszen: sorrendes kviz @dnd-kit — huzas fogantyuval, fel/le gombok nelkul; bekuldes utan statikus lista
 
 osszefoglalo
 
 - keszen: Tortenelem tanulo web alap (temakorok, kvizek, 2 tetel)
 - keszen: Sorrendes zaro kviz szovegei temavaltas utan is megjelennek
 - keszen: temakor kepek ujra betoltodnek (Wikimedia + helyi terkepek)
+- keszen: sorrendes kerdesek atrendezese huzassal (mobil + billentyuzet)
